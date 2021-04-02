@@ -16,8 +16,6 @@ namespace TicToe
                     ref var winnerType = ref _filter.Get2(index);
                     _sceneData.UI.winScreen.Show(true);
                     _sceneData.UI.winScreen.SetWinner(winnerType.value);
-
-                    _filter.GetEntity(index).Del<Winner>();
                 }
             }
         }

@@ -202,18 +202,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 24638927}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 660025869}
-        m_MethodName: OnRestartClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &24638927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -360,7 +349,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fecbb1204930acb42a21f3c692714d58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 1902685072}
+  _text: {fileID: 1902685072}
+  _restartButton: {fileID: 935438452}
 --- !u!224 &339951678
 RectTransform:
   m_ObjectHideFlags: 0
@@ -611,6 +601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5647effa4a578364baba5e3785a14432, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _restartButton: {fileID: 24638926}
 --- !u!114 &660025870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -796,18 +787,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 935438453}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 339951677}
-        m_MethodName: OnRestartClick
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &935438453
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -952,7 +932,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c5219e9d317a364e85635aba6577ea2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 346777131}
+  _text: {fileID: 346777131}
 --- !u!224 &1200053737
 RectTransform:
   m_ObjectHideFlags: 0
